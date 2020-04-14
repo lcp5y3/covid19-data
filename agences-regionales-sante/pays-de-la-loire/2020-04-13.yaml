@@ -1,0 +1,50 @@
+date: 2020-04-13
+time: 16:00
+source:
+  nom: ARS Pays de la Loire
+  url: https://www.pays-de-la-loire.ars.sante.fr/system/files/2020-04/2020-04-13-bulletin%20information%20COVID-19.pdf
+  archive: https://web.archive.org/web/20200414071949/https://www.pays-de-la-loire.ars.sante.fr/system/files/2020-04/2020-04-13-bulletin%20information%20COVID-19.pdf
+donneesRegionales:
+  nom: Pays de la Loire
+  code: REG-52
+  casConfirmes: 2156
+  hospitalises: 823
+  reanimation: 162 # dont 34 d'IDF et 10 du Grand Est
+  deces:  286 # 192 personnes décédées en centre Hospitalier et 94 en EHPAD
+  gueris: 719
+donneesDepartementales:
+  - nom: Loire-Atlantique
+    code: DEP-44
+    casConfirmes: 779
+    hospitalisation: 222
+    reanimation: 64
+    gueris: 236
+    deces: 71
+  - nom: Maine-et-Loire
+    code: DEP-49
+    casConfirmes: 392
+    hospitalisation: 222
+    reanimation: 45
+    gueris: 253
+    deces: 54
+  - nom: Mayenne
+    code: DEP-53
+    casConfirmes: 256
+    hospitalisation: 68
+    reanimation: 11
+    gueris: 41
+    deces: 19
+  - nom: Sarthe
+    code: DEP-72
+    casConfirmes: 512
+    hospitalisation: 155
+    reanimation: 22
+    gueris: 122
+    deces: 27
+  - nom: Vendée
+    code: DEP-85
+    casConfirmes: 192
+    hospitalisation: 79
+    reanimation: 20
+    gueris: 67
+    deces: 21
